@@ -1,0 +1,62 @@
+body {
+    background-color: cadetblue;
+}
+.mainheading {
+    text-align: center;
+    background-color: darkgrey;
+    border: 0.5vw solid;
+    border-radius: 2rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.entertask{
+    display: flex;
+    justify-content: center;
+}
+#enter_task {
+    padding: 15px 15px;
+    font-size: 1rem;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+#tasklist {
+    list-style-type: none; /* removes default bullets */
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  #tasklist li {
+    background-color: #fff;
+    padding: 10px 15px;
+    margin: 8px auto;
+    border-radius: 8px;
+    width: 60%;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  #tasklist button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.5;
+  }
+
+  .set_of_tasks {
+    text-align: center;
+  }
+
